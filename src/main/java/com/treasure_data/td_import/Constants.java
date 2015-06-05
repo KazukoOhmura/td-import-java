@@ -59,7 +59,7 @@ public interface Constants extends com.treasure_data.client.Constants {
             "    -T, --time-format FORMAT         specifies the strftime format of the time column\n" +
             "                                      The format slightly differs from Ruby's Time#strftime format in that the\n" +
             "                                      '%:z' and '%::z' timezone options are not supported.\n" +
-            "    -e, --encoding TYPE              encoding type [utf-8]\n" +
+            "    -e, --encoding TYPE              encoding type [utf-8, Windows-31J]\n" +
             "    -o, --output DIR                 output directory. default directory is 'out'.\n" +
             "    -s, --split-size SIZE_IN_KB      size of each parts (default: 16384)\n" +
             "    -t, --time-column NAME           name of the time column\n" +
